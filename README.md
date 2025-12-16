@@ -1,270 +1,724 @@
-# 🩺 **SRAG Monitor: Decoding COVID-19's Impact on Espírito Santo**
-
-> *"When data becomes the lens through which we understand human suffering and resilience, every visualization tells a story of lives touched, families changed, and communities transformed. This analysis doesn't just show numbers - it reveals the heartbeat of a state fighting through a pandemic."*
-
+<!-- Hero Section -->
 <div align="center">
 
-![Status](https://img.shields.io/badge/status-📊%20Analysis%20Complete-success?style=for-the-badge)
-![Platform](https://img.shields.io/badge/platform-📈%20R%20/%20Quarto-orange?style=for-the-badge)
-![Institution](https://img.shields.io/badge/institution-🏥%20ICEPi%20Certified-purple?style=for-the-badge)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,18,20,22,24&height=280&section=header&text=🩺%20SRAG%20Monitor&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=40"/>
 
-**🏆 Final Project - Data Analysis Training Program for Health Management**
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=009639&center=true&vCenter=true&repeat=true&width=900&height=100&lines=Decoding+COVID-19's+Impact+on+Espírito+Santo+🦠;5+Years+of+Pandemic+Data+Analyzed+📊;From+Numbers+to+Human+Stories+💚;Evidence-Based+Public+Health+Insights+🏥" alt="Typing SVG" />
+
+<br><br>
+
+![Status](https://img.shields.io/badge/Status-Analysis_Complete-success?style=for-the-badge&logo=checkmarx)
+![Platform](https://img.shields.io/badge/Platform-R_|_Quarto-orange?style=for-the-badge&logo=r)
+![Institution](https://img.shields.io/badge/Institution-ICEPi_Certified-purple?style=for-the-badge&logo=academicapple)
+![Impact](https://img.shields.io/badge/Impact-Public_Health-blue?style=for-the-badge&logo=heart)
+
+<br>
+
+**Final Project - Data Analysis Training Program for Health Management**
+
+[🎯 Mission](#-mission) • [📊 Insights](#-key-insights) • [🛠️ Technologies](#️-technologies) • [📈 Findings](#-critical-findings) • [🌍 Impact](#-real-world-applications)
 
 </div>
 
 ---
 
-## 🌟 **The Story Behind the Numbers**
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-What began as a **routine data analysis assignment** became a **profound journey into the human cost of a global pandemic.**
-
-*What if we could see beyond the statistics?* What if every data point represented not just a case, but a person, a family, a community grappling with uncertainty? **SRAG Monitor** transforms raw epidemiological data into a narrative of resilience, revealing how Espírito Santo navigated one of the most challenging periods in modern history.
-
-<div align="center">
-
-
-*The rise and fall of SARS cases - each peak a story of struggle, each valley a breath of hope*
-
-</div>
-
----
-
-## 🎯 **Mission: From Data to Understanding**
+<!-- Project Overview -->
+## 💡 **The Story Behind the Numbers**
 
 <table>
 <tr>
-<td width="50%">
+<td width="60%">
 
-### 📊 **The Challenge**
-*"How do we make sense of 5 years of pandemic data?"*
+### 🎯 **The Mission**
 
-**🔍 The Data Reality**
-- **1.2 million+** SARS notifications nationwide
-- **Thousands** of cases in Espírito Santo alone
-- **Multiple datasets** spanning 2020-2024
-- **Complex variables** requiring careful interpretation
+What began as a **routine data analysis assignment** became a **profound journey into the human cost of a global pandemic.**
 
-**💡 The Vision**
-Transform overwhelming data into **actionable insights** that tell the story of COVID-19's impact on our state.
+This project analyzes **5 years of SARS data** (2020-2024) from Espírito Santo, Brazil, transforming raw epidemiological information into meaningful insights about COVID-19's impact on our community.
+
+> *"When data becomes the lens through which we understand human suffering and resilience, every visualization tells a story of lives touched, families changed, and communities transformed."*
+
+**Key Question:** *How did Espírito Santo navigate one of the most challenging periods in modern history?*
 
 </td>
-<td width="50%">
+<td width="40%">
 
-### 🎨 **The Solution**
-*"Every chart reveals a chapter in our collective story"*
-
-**⚡ What We Discovered**
-- **Age group vulnerabilities** across pandemic waves
-- **Temporal patterns** showing peaks and recoveries
-- **Geographic insights** within Espírito Santo
-- **Demographic trends** that shaped healthcare responses
-
-**🏆 The Impact**
-Data-driven understanding that contributes to **future pandemic preparedness** and **public health policy**.
+<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="100%">
 
 </td>
 </tr>
 </table>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 📈 **Key Insights Uncovered**
-
-### 🔍 **Age Group Vulnerabilities**
-*"The virus didn't discriminate, but it did have preferences"*
-
-- **👴 Elderly Population**: Highest risk groups and protection strategies
-- **📊 Demographic Shifts**: How vaccination changed the landscape
-
-### 📅 **Pandemic Timeline Analysis**
-*"Five years of data tell the story of adaptation and resilience"*
-
-- **🌊 Wave 1 (2020)**: The unknown enemy arrives
-- **🌊 Wave 2 (2021)**: Variants and vaccine hope
-- **🌊 Wave 3 (2022)**: Living with COVID-19
-- **📉 Recovery Period (2023-2024)**: The new normal emerges
-
----
-
-## 🛠️ **Technical Architecture**
+<!-- The Challenge -->
+## 📊 **The Challenge**
 
 <div align="center">
 
-### **⚡ Technology Stack**
+### **Making Sense of Overwhelming Data**
 
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![Quarto](https://img.shields.io/badge/Quarto-75AADB?style=for-the-badge&logo=quarto&logoColor=white)
-![ggplot2](https://img.shields.io/badge/ggplot2-E69F00?style=for-the-badge&logo=r&logoColor=white)
-![OpenDataSUS](https://img.shields.io/badge/OpenDataSUS-009639?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9zdmc+&logoColor=white)
+<table>
+<tr>
+<td align="center" width="25%">
+
+### 📁 **Volume**
+<img src="https://img.shields.io/badge/1.2M+-Notifications-red?style=flat-square" />
+
+Nationwide SARS cases spanning 5 years
+
+</td>
+<td align="center" width="25%">
+
+### 🗺️ **Scope**
+<img src="https://img.shields.io/badge/Espírito_Santo-Focus-blue?style=flat-square" />
+
+State-level analysis with municipal depth
+
+</td>
+<td align="center" width="25%">
+
+### ⏰ **Timeline**
+<img src="https://img.shields.io/badge/2020--2024-5_Years-orange?style=flat-square" />
+
+Complete pandemic evolution tracking
+
+</td>
+<td align="center" width="25%">
+
+### 🔬 **Complexity**
+<img src="https://img.shields.io/badge/Multiple-Variables-purple?style=flat-square" />
+
+Demographics, geography, temporal patterns
+
+</td>
+</tr>
+</table>
 
 </div>
 
-### 🏗️ **Data Pipeline Philosophy**
+### 🌊 **The Pandemic Journey**
 
-- **🔄 Extract**: Automated data retrieval from OpenDataSUS
-- **🧹 Transform**: Intelligent cleaning and standardization
-- **📊 Load**: Optimized data structures for analysis
-- **🎨 Visualize**: Compelling storytelling through graphics
-- **📝 Report**: Comprehensive insights in HTML format
+<table>
+<tr>
+<td width="50%">
 
----
+#### **The Data Reality**
+- 🦠 **Wave 1 (2020)**: The unknown enemy arrives
+- 💉 **Wave 2 (2021)**: Variants and vaccine hope  
+- 🏥 **Wave 3 (2022)**: Living with COVID-19
+- 📉 **Recovery (2023-2024)**: The new normal emerges
 
-## 📊 **Data Sources & Methodology**
+</td>
+<td width="50%">
 
-### 🏥 **OpenDataSUS Integration**
+#### **The Solution**
+- 📊 **Automated ETL**: From OpenDataSUS to insights
+- 🎨 **Visual Storytelling**: Every chart tells a story
+- 🔍 **Pattern Recognition**: Hidden trends revealed
+- 📝 **Actionable Intelligence**: Data-driven recommendations
 
-<details>
-<summary>📚 <strong>Complete Dataset Portfolio</strong></summary>
+</td>
+</tr>
+</table>
 
-| Year | Dataset | Cases Analyzed | Key Insights |
-|------|---------|----------------|--------------|
-| **2020** | [SRAG-2020](https://opendatasus.saude.gov.br/dataset/srag-2020) | First wave impact | Initial response patterns |
-| **2021** | [SRAG-2021](https://opendatasus.saude.gov.br/dataset/srag-2021-a-2024) | Variant emergence | Vaccination effects |
-| **2022** | [SRAG-2022](https://opendatasus.saude.gov.br/dataset/srag-2021-a-2024) | Endemic transition | Omicron characteristics |
-| **2023** | [SRAG-2023](https://opendatasus.saude.gov.br/dataset/srag-2021-a-2024) | Post-pandemic analysis | Long-term trends |
-| **2024** | [SRAG-2024](https://opendatasus.saude.gov.br/dataset/srag-2021-a-2024) | Current status | Lessons learned |
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-</details>
-
-### 🔬 **Analytical Approach**
-
-> **"This project didn't just teach me data analysis - it taught me how to find humanity in numbers, to see stories in statistics, and to transform raw information into meaningful understanding."**
-
-- **🎯 Regional Focus**: Espírito Santo-specific insights
-- **📊 Temporal Analysis**: Multi-year trend identification
-- **👥 Demographic Segmentation**: Age-based pattern recognition
-- **📈 Visualization Excellence**: Clear, impactful graphics
-- **📝 Reproducible Research**: Well-documented methodology
-
----
-
-
-## 📊 **Key Findings & Impact**
+<!-- Key Insights -->
+## 🔍 **Key Insights**
 
 <div align="center">
 
-### **🎯 Research Outcomes**
-
-| Metric | Finding | Impact |
-|--------|---------|--------|
-| **Peak Cases** | March 2021 | Healthcare system stress point |
-| **Most Affected Age** | 60+ years | Targeted intervention success |
-| **Recovery Period** | Mid-2023 | Policy effectiveness validation |
+### **Uncovering Patterns in the Pandemic**
 
 </div>
 
-### 🎓 **Skills Developed Through Analysis**
+### 📊 **Analysis Framework**
 
-- 📊 **Advanced R Programming**: Complex data manipulation
-- 🎨 **Data Visualization**: ggplot2 mastery
-- 📝 **Scientific Writing**: Quarto report generation
-- 🏥 **Epidemiological Understanding**: Public health insights
-- 🔍 **Pattern Recognition**: Trend identification expertise
+```mermaid
+graph LR
+    A[📥 OpenDataSUS] -->|Extract| B[🧹 Data Cleaning]
+    B -->|Transform| C[📊 Analysis Engine]
+    C -->|Demographics| D[👥 Age Patterns]
+    C -->|Geography| E[🗺️ Regional Trends]
+    C -->|Temporal| F[📅 Timeline Analysis]
+    D --> G[📈 Visualizations]
+    E --> G
+    F --> G
+    G --> H[💡 Public Health Insights]
+    
+    style A fill:#009639,stroke:#006622,color:#fff
+    style B fill:#75AADB,stroke:#4A90C9,color:#fff
+    style C fill:#E69F00,stroke:#CC8800,color:#fff
+    style G fill:#56B4E9,stroke:#3A9FD8,color:#fff
+    style H fill:#009E73,stroke:#007A5A,color:#fff
+```
 
----
+### 🎯 **Three Dimensions of Analysis**
 
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 👥 **Demographics**
+
+**Who was affected?**
+
+- 👴 Elderly population vulnerability
+- 📊 Age group distribution shifts
+- 💉 Vaccination impact by age
+- 🎯 High-risk profile identification
+
+</td>
+<td width="33%" align="center">
+
+### 📅 **Temporal**
+
+**When did waves occur?**
+
+- 🌊 Wave pattern identification
+- 📈 Peak periods and recovery
+- 🎄 Seasonal variations
+- 📉 Long-term trend analysis
+
+</td>
+<td width="33%" align="center">
+
+### 🗺️ **Geographic**
+
+**Where was impact greatest?**
+
+- 📍 Municipal distribution
+- 🏥 Healthcare system stress
+- 🌆 Urban vs rural patterns
+- 🎯 Regional intervention needs
+
+</td>
+</tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- Technologies -->
+## 🛠️ **Technologies**
+
+<div align="center">
+
+### **Epidemiological Analysis Stack**
+
+<table>
+<tr>
+<td align="center" width="20%">
+<img src="https://skillicons.dev/icons?i=r" width="80"/><br>
+<b>R Language</b><br>
+<sub>Statistical Computing</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://quarto.org/quarto.png" width="80"/><br>
+<b>Quarto</b><br>
+<sub>Scientific Publishing</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://raw.githubusercontent.com/tidyverse/ggplot2/main/man/figures/logo.png" width="80"/><br>
+<b>ggplot2</b><br>
+<sub>Data Visualization</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://raw.githubusercontent.com/tidyverse/dplyr/main/man/figures/logo.png" width="80"/><br>
+<b>dplyr</b><br>
+<sub>Data Manipulation</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://www.gov.br/saude/pt-br/centrais-de-conteudo/imagens/logo-sus-1.png/@@images/image.png" width="80"/><br>
+<b>OpenDataSUS</b><br>
+<sub>Health Data Source</sub>
+</td>
+</tr>
+</table>
+
+### 📦 **Core Packages**
+
+![readr](https://img.shields.io/badge/readr-Data_Import-blue?style=for-the-badge&logo=r)
+![lubridate](https://img.shields.io/badge/lubridate-Date_Handling-green?style=for-the-badge&logo=r)
+![tidyr](https://img.shields.io/badge/tidyr-Data_Tidying-orange?style=for-the-badge&logo=r)
+![knitr](https://img.shields.io/badge/knitr-Dynamic_Reports-purple?style=for-the-badge&logo=r)
+
+</div>
+
+### 🏗️ **Data Pipeline Architecture**
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────┐
+│        📊 OpenDataSUS - SRAG Database (2020-2024)       │
+│         (1.2M+ national SARS notifications)             │
+└─────────────────────────────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────┐
+│                  🔄 Automated ETL Process                │
+│       • Download yearly datasets                         │
+│       • Filter Espírito Santo cases                      │
+│       • Standardize variable names                       │
+└─────────────────────────────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────┐
+│                   🧹 Data Cleaning                       │
+│       • Missing value handling                           │
+│       • Date standardization                             │
+│       • Age group categorization                         │
+│       • Outcome classification                           │
+└─────────────────────────────────────────────────────────┘
+                           │
+        ┌──────────────────┼──────────────────┐
+        ▼                  ▼                  ▼
+┌───────────────┐  ┌───────────────┐  ┌───────────────┐
+│  Demographic  │  │   Temporal    │  │   Geographic  │
+│   Analysis    │  │   Analysis    │  │   Analysis    │
+│               │  │               │  │               │
+│ • Age groups  │  │ • Wave trends │  │ • Municipals  │
+│ • Risk factors│  │ • Seasonality │  │ • Hotspots    │
+└───────────────┘  └───────────────┘  └───────────────┘
+        │                  │                  │
+        └──────────────────┼──────────────────┘
+                           ▼
+┌─────────────────────────────────────────────────────────┐
+│               📈 ggplot2 Visualizations                  │
+│     • Time series • Bar charts • Histograms             │
+└─────────────────────────────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────┐
+│           📝 Quarto HTML Report Generation               │
+└─────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- Critical Findings -->
+## 📈 **Critical Findings**
+
+<div align="center">
+
+### **Evidence-Based Discoveries**
+
+| Finding | Impact | Public Health Implication |
+|---------|--------|---------------------------|
+| **Peak: March 2021** | 🚨 Healthcare system maximum stress | Emergency capacity planning critical |
+| **Most Affected: 60+ years** | 👴 Elderly population high risk | Targeted vaccination success |
+| **Recovery: Mid-2023** | 📉 Endemic transition complete | Policy effectiveness validated |
+| **Vaccination Effect** | 💉 Significant mortality reduction | Immunization programs work |
+| **Seasonal Patterns** | 🎄 Holiday season peaks | Preventive campaigns needed |
+
+</div>
+
+### 🎯 **Demographic Insights**
+
+<table>
+<tr>
+<td width="50%">
+
+#### **Age Group Vulnerabilities**
+- 👴 **60+ years**: Highest mortality rate
+- 👨‍💼 **40-59 years**: Significant hospitalizations
+- 👶 **0-17 years**: Lower severe outcomes
+- 💉 **Vaccination Impact**: Dramatic risk reduction post-2021
+
+</td>
+<td width="50%">
+
+#### **Temporal Patterns**
+- 🌊 **Wave 1 (2020)**: Initial overwhelm, limited treatment
+- 🌊 **Wave 2 (2021)**: Variant surge, vaccine rollout begins
+- 🌊 **Wave 3 (2022)**: Omicron dominance, endemic shift
+- 📉 **Recovery (2023-2024)**: Sustained low levels
+
+</td>
+</tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- Data Sources -->
+## 📊 **Data Sources**
+
+<div align="center">
+
+### **OpenDataSUS - Brazil's Open Health Data Portal**
+
+</div>
+
+<table>
+<tr>
+<th>Year</th>
+<th>Dataset</th>
+<th>Cases Analyzed</th>
+<th>Key Period</th>
+</tr>
+<tr>
+<td align="center">📅 <b>2020</b></td>
+<td><a href="https://opendatasus.saude.gov.br/dataset/srag-2020">SRAG-2020</a></td>
+<td>First wave impact</td>
+<td>Initial pandemic response</td>
+</tr>
+<tr>
+<td align="center">📅 <b>2021</b></td>
+<td><a href="https://opendatasus.saude.gov.br/dataset/srag-2021-a-2024">SRAG-2021</a></td>
+<td>Variant emergence</td>
+<td>Vaccination rollout begins</td>
+</tr>
+<tr>
+<td align="center">📅 <b>2022</b></td>
+<td><a href="https://opendatasus.saude.gov.br/dataset/srag-2021-a-2024">SRAG-2022</a></td>
+<td>Endemic transition</td>
+<td>Omicron characteristics</td>
+</tr>
+<tr>
+<td align="center">📅 <b>2023</b></td>
+<td><a href="https://opendatasus.saude.gov.br/dataset/srag-2021-a-2024">SRAG-2023</a></td>
+<td>Post-pandemic analysis</td>
+<td>Long-term trend assessment</td>
+</tr>
+<tr>
+<td align="center">📅 <b>2024</b></td>
+<td><a href="https://opendatasus.saude.gov.br/dataset/srag-2021-a-2024">SRAG-2024</a></td>
+<td>Current status monitoring</td>
+<td>Lessons learned documentation</td>
+</tr>
+</table>
+
+### 📋 **Data Dictionary**
+
+<div align="center">
+
+[![Data Dictionary](https://img.shields.io/badge/SRAG-Data_Dictionary-009639?style=for-the-badge&logo=book)](https://www.saude.ba.gov.br/wp-content/uploads/2021/06/Dicionario_de_Dados_SRAG_Hospitalizado_23.03.2021.pdf)
+
+*Comprehensive variable documentation for SARS hospitalized cases*
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- Getting Started -->
 ## 🚀 **Getting Started**
 
-### **📋 Prerequisites**
-```r
-# Essential R packages
-install.packages(c("ggplot2", "dplyr", "readr", "quarto"))
-
-# OpenDataSUS access
-# Large dataset handling capabilities
-# RStudio environment recommended
-```
-
-### **🎮 Quick Analysis Setup**
-```bash
-# Clone the repository
-git clone https://github.com/joaogalimberti/srag-covid19-data-analysis.git
-
-# Navigate to project
-cd srag-covid19-data-analysis
-
-# Open in RStudio
-# Load main analysis script
-# Run complete pipeline
-```
-
----
-
-## 🎓 **Academic Excellence**
-
-### **🌟 ICEPi Training Program Achievement**
-- **🏆 Final Project** - Data Analysis Training Program
-- **👨‍🏫 Mentor Recognition** for analytical depth
-- **📊 Methodology Excellence** in epidemiological analysis
-- **🎯 Practical Application** of health data science
-
----
-
-## 🤝 **Contributing to Public Health**
-
-### **🎯 How This Analysis Helps**
-
 <div align="center">
 
-[![Public Health](https://img.shields.io/badge/Public_Health-Impact-success?style=for-the-badge&logo=health&logoColor=white)](https://opendatasus.saude.gov.br/)
-[![Policy Making](https://img.shields.io/badge/Policy_Making-Support-blue?style=for-the-badge&logo=government&logoColor=white)](https://www.icepi.es.gov.br/)
-[![Research](https://img.shields.io/badge/Research-Contribution-purple?style=for-the-badge&logo=research&logoColor=white)](https://github.com/joaogalimberti)
+### **Replicate the Analysis**
 
 </div>
 
-### **🌍 Real-World Applications**
-- **📊 Pandemic Preparedness**: Data-driven response planning
-- **🏥 Healthcare Resource Allocation**: Evidence-based decisions
-- **📈 Policy Evaluation**: Measuring intervention effectiveness
-- **🎓 Educational Resource**: Training future analysts
-- **💡 Community Awareness**: Transparent data communication
+### 📋 **Prerequisites**
 
----
+```r
+# Install required packages
+install.packages(c(
+  "ggplot2",      # Data visualization
+  "dplyr",        # Data manipulation
+  "readr",        # Data import
+  "lubridate",    # Date handling
+  "tidyr",        # Data tidying
+  "quarto"        # Report generation
+))
+```
 
-## 📚 **Resources & Learning**
+### 🎮 **Quick Start**
 
-<details>
-<summary>📖 <strong>Complete Learning Journey</strong></summary>
+<table>
+<tr>
+<td width="33%" align="center">
 
-### **🏫 Academic Foundation**
-- 🎓 [ICEPi Health Management Training](https://www.icepi.es.gov.br/)
-  *Where evidence-based healthcare begins*
-- 📊 [OpenDataSUS Platform](https://opendatasus.saude.gov.br/)
-  *Brazil's open health data repository*
-- 📈 [R for Data Science](https://r4ds.had.co.nz/)
-  *The analyst's essential guide*
+### 1️⃣ **Clone**
 
-### **💻 Technical Resources**
-- 🔧 [ggplot2 Mastery](https://ggplot2.tidyverse.org/)
-- 📝 [Quarto Documentation](https://quarto.org/)
-- 🏥 [SRAG Data Dictionary](https://www.saude.ba.gov.br/wp-content/uploads/2021/06/Dicionario_de_Dados_SRAG_Hospitalizado_23.03.2021.pdf)
+```bash
+git clone https://github.com/
+joaogalimberti/
+srag-covid19-analysis.git
+```
 
-</details>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 
----
+</td>
+<td width="33%" align="center">
 
-## 🎭 **The Human Story Behind the Data**
+### 2️⃣ **Setup**
 
-> *"SRAG Monitor taught me that the most powerful analyses don't just reveal patterns - they reveal people. Every visualization in this project represents real families, real struggles, and real triumphs. This project transformed me from someone who analyzes data to someone who uncovers human stories through statistics."*
+```bash
+cd srag-covid19-analysis
 
-### **🎨 Development Philosophy**
-- **People First**: Every analysis considered human impact
-- **Accuracy Matters**: Rigorous methodology for reliable insights
-- **Transparency**: Open data, open methods, open results
-- **Learning Journey**: Documented every challenge and breakthrough
+# Open in RStudio
+# Load packages
+```
 
-**🩺 Crafted with data and compassion by [João Vitor Galimberti Contarato](https://github.com/joaogalimberti)**
+<img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
 
-*A data-driven quest born from ICEPi Health Management Training | 2024*
+</td>
+<td width="33%" align="center">
+
+### 3️⃣ **Run**
+
+```bash
+# Execute analysis
+# Generate report
+# View insights
+```
+
+<img src="https://img.shields.io/badge/Analysis-Ready-success?style=for-the-badge&logo=chartdotjs" />
+
+</td>
+</tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- Real World Applications -->
+## 🌍 **Real-World Applications**
+
+<div align="center">
+
+### **From Insights to Impact**
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### 🎓 **Academic Excellence**
+
+**ICEPi Health Management Training**
+
+- 🏆 **Final Project Recognition**
+- 👨‍🏫 **Mentor Commendation** for analytical depth
+- 📊 **Methodology Excellence** in epidemiology
+- 🎯 **Reproducible Research** standards
+
+**Skills Mastered:**
+- Advanced R programming
+- Epidemiological data analysis
+- Scientific visualization
+- Quarto report generation
+- Public health communication
+
+</td>
+<td width="50%">
+
+### 💼 **Public Health Impact**
+
+**Policy and Planning Applications**
+
+- 📊 **Pandemic Preparedness**: Future response planning
+- 🏥 **Resource Allocation**: Evidence-based decisions
+- 📈 **Policy Evaluation**: Intervention effectiveness
+- 🎓 **Educational Resource**: Training materials
+- 💡 **Community Awareness**: Transparent communication
+
+**Stakeholder Value:**
+- Health departments
+- Hospital administrators
+- Policy makers
+- Research institutions
+- General public
+
+</td>
+</tr>
+</table>
+
+### 🎯 **Impact Framework**
+
+<div align="center">
+
+```mermaid
+graph TD
+    A[📊 Data Analysis] --> B[💡 Insights Generation]
+    B --> C[👥 Demographics]
+    B --> D[📅 Timeline]
+    B --> E[🗺️ Geography]
+    
+    C --> F[🎯 Targeted Interventions]
+    D --> G[📈 Trend Forecasting]
+    E --> H[🏥 Resource Planning]
+    
+    F --> I[💚 Better Health Outcomes]
+    G --> I
+    H --> I
+    
+    style A fill:#009639,stroke:#006622,color:#fff
+    style B fill:#75AADB,stroke:#4A90C9,color:#fff
+    style I fill:#009E73,stroke:#007A5A,color:#fff
+```
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- Learning Outcomes -->
+## 📚 **Learning Outcomes**
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+### 💻 **Technical Skills**
+
+- 📊 **R Programming**: Advanced data manipulation
+- 🎨 **ggplot2 Mastery**: Complex visualizations
+- 📝 **Quarto Publishing**: Scientific reports
+- 🔄 **ETL Pipeline**: Automated data processing
+- 📈 **Statistical Analysis**: Trend identification
+
+</td>
+<td align="center" width="50%">
+
+### 🏥 **Public Health Competencies**
+
+- 🦠 **Epidemiological Analysis**: Disease patterns
+- 📊 **Health Data Science**: Evidence-based insights
+- 🎯 **Policy Translation**: Actionable recommendations
+- 💬 **Science Communication**: Clear reporting
+- 🌍 **Population Health**: Community impact
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- Resources -->
+## 📖 **Resources & References**
+
+<div align="center">
+
+### **Research Foundation**
+
+| Resource | Description | Link |
+|----------|-------------|------|
+| 🏥 **ICEPi** | Health Management Training | [Website](https://www.icepi.es.gov.br/) |
+| 📊 **OpenDataSUS** | Brazil's Open Health Data | [Portal](https://opendatasus.saude.gov.br/) |
+| 📚 **SRAG Dictionary** | Variable Documentation | [PDF](https://www.saude.ba.gov.br/wp-content/uploads/2021/06/Dicionario_de_Dados_SRAG_Hospitalizado_23.03.2021.pdf) |
+| 📖 **R for Data Science** | Learning Resource | [Book](https://r4ds.had.co.nz/) |
+| 🎨 **ggplot2 Docs** | Visualization Guide | [Website](https://ggplot2.tidyverse.org/) |
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- Philosophy -->
+## 💭 **Project Philosophy**
+
+<div align="center">
+
+> *"This project taught me that the most powerful analyses don't just reveal patterns - they reveal people. Every visualization represents real families, real struggles, and real triumphs. SRAG Monitor transformed me from someone who analyzes data to someone who uncovers human stories through statistics."*
+
+### **Core Principles**
+
+</div>
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### 💚 **Humanity First**
+
+Every number represents a person's story
+
+</td>
+<td align="center" width="25%">
+
+### 🔬 **Scientific Rigor**
+
+Evidence-based methodology throughout
+
+</td>
+<td align="center" width="25%">
+
+### 🌍 **Public Good**
+
+Data serving community health
+
+</td>
+<td align="center" width="25%">
+
+### 📖 **Transparency**
+
+Open data, open methods, open results
+
+</td>
+</tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- Contributing -->
+## 🤝 **Contributing**
+
+<div align="center">
+
+**Contributions to improve pandemic data analysis are welcome!**
+
+</div>
+
+```bash
+# 1. Fork the repository
+# 2. Create a feature branch
+git checkout -b feature/EnhancedAnalysis
+
+# 3. Commit your improvements
+git commit -m 'feat: Add additional demographic analysis'
+
+# 4. Push to the branch
+git push origin feature/EnhancedAnalysis
+
+# 5. Open a Pull Request
+```
+
+<div align="center">
+
+### **Contribution Areas**
+
+| Area | Type |
+|------|------|
+| 📊 **Analysis** | New statistical methods, additional visualizations |
+| 🗺️ **Geography** | Municipal-level insights, spatial analysis |
+| 📝 **Documentation** | Improved explanations, translations |
+| 🎯 **Applications** | New use cases, policy recommendations |
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- Contact -->
+## 📬 **Contact**
+
+<div align="center">
+
+### **Questions? Let's Connect!**
+
+[![Email](https://img.shields.io/badge/Email-joaogalimberti@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaogalimberti@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-João_Galimberti-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joaogalimberti/)
+[![GitHub](https://img.shields.io/badge/GitHub-joaogalimberti-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joaogalimberti)
+
+</div>
 
 ---
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joaogalimberti)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joaogalimberti)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaogalimberti@gmail.com)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,18,20,22,24&height=150&section=footer"/>
 
-*Follow my journey from health data analyst to epidemiological insights expert!*
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=009639&center=true&vCenter=true&width=800&lines=🩺+Every+data+point+tells+a+human+story;📊+From+pandemic+chaos+to+endemic+clarity;💚+Transforming+numbers+into+public+health+wisdom" alt="Footer" />
+
+**Developed with 💚 by [João Galimberti](https://github.com/joaogalimberti) | ICEPi Health Management Training | 2024**
+
+*When data becomes a lifeline for understanding and prevention*
 
 </div>
